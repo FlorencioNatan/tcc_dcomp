@@ -1,0 +1,80 @@
+\documentclass{tcc_dcomp}
+
+\centro{Centro 1}
+\departamento{Departamento 1}
+\autor{Autor}
+\orientador{Orientador}
+\titulo{Título}
+\local{Local}
+\data{\today}
+\curso{Curso}
+\bancaum{um}
+\bancadois{dois}
+
+\begin{document}
+  \capa
+  \contracapa
+  \begin{banca}
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+    culpa qui officia deserunt mollit anim id est laborum.
+  \end{banca}
+  \begin{agradecimentos}
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+    culpa qui officia deserunt mollit anim id est laborum.
+  \end{agradecimentos}
+  \palavraschave{Palavra1, Palavra2, Palavra3}
+  \begin{resumo}
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+    culpa qui officia deserunt mollit anim id est laborum.
+  \end{resumo}
+  \keywords{Word1, Word2, Word3}
+  \begin{abstract}
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+    culpa qui officia deserunt mollit anim id est laborum.
+  \end{abstract}
+  \listadefiguras
+  \listadetabelas
+  \begin{listadeabreviaturas}
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+    culpa qui officia deserunt mollit anim id est laborum.
+  \end{listadeabreviaturas}
+  \sumario
+  \pagenumbering{arabic}
+
+  \chapter{Titulo do capitulo 1}
+  Citação \cite{autor:00}
+
+  \chapter{Titulo do capitulo 2}
+  Abaixo temos um tabuleiro de xadrez, como podemos ver na figura
+  \ref{fig:xadrez}.
+
+  \begin{figure}[ht]
+  \centering
+  \includegraphics[width=.5\textwidth]{figuras/xadrez.png}
+  \caption{Tabuleiro de xadrez}
+  \label{fig:xadrez}
+  \end{figure}
+
+  \bibliographystyle{plain}
+  \bibliography{bibliografia}
+\end{document}
