@@ -33,6 +33,10 @@
 \RequirePackage{titlesec}
 \usepackage{setspace}
 \setstretch{1.5}
+\RequirePackage{hyperref}
+\RequirePackage{listings}
+
+\usepackage{float}
 
 \renewcommand{\figurename}{Figura}
 
@@ -219,3 +223,4 @@ abreviaturas e siglas}}}{ \newpage}
 \titleformat{\chapter}[hang]
 {\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter.}{0.3em}{}
 \renewcommand{\chaptername}{}
+\renewcommand\tablename{Tabela}
